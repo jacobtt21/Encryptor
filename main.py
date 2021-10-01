@@ -25,6 +25,3 @@ def find(enc):
     encs = request.args.get('enc')
     encs.encode()
     return render_template('index.html', message = fernet.decrypt(encs.encode()).decode())
-
-if __name__ == '__main__':
-    app.run(debug=True)
