@@ -1,2 +1,2 @@
 # Encryptor
-Made to transfer sensitive info securly.
+Made to transfer sensitive info sEcuRrElY
