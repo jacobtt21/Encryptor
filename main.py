@@ -18,7 +18,7 @@ def our_bad(e):
 
 @app.errorhandler(405)
 def our_bad(e):
-    return render_template('index.html', message="Cannot refresh page, security reasons"), 405
+    return render_template('index.html'), 405
 
 @app.route('/')
 def index():
