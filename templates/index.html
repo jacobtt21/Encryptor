@@ -6,6 +6,7 @@
     <h1>Welcome</h1>
     <h3>Please input your encrypted string to decrypt it:</h3>
     <form action="/enc" autocomplete="off">
+        <input type="password" placeholder="Password" name="passw" required></input>
         <input type="text" placeholder="Encrypt a Value" name="enc" required></input>
         <button type="submit">decrypt</button>
         <h4>Message is: {{ message }} </h4>
